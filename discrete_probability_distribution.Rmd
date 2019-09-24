@@ -66,7 +66,7 @@ bin_graph(20,0.06)
 # Lambda = 10 calls/hour 
 # Calculate prob of having exactly 4 calls in the next hour: P(X=4)
 dpois(4, 10)
-dpois(5,10)
+dpois(5, 20)
 
 # Calculate prob of receving mostly 8 calls in one hour: P(X<=8)
 # ppois() gives the cumulative probabilities
