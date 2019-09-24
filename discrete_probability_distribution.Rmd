@@ -74,6 +74,8 @@ dpois(5, 20)
 
 ppois(8,10)
 ppois(10, 10)
+ppois(10, 12)
+ppois(12, 12)
 
 
 # Observe the shape of different Poission distributions with varying lambdas
