@@ -66,7 +66,10 @@ bin_graph(20,0.06)
 # Lambda = 10 calls/hour 
 # Calculate prob of having exactly 4 calls in the next hour: P(X=4)
 dpois(4, 10)
+<<<<<<< HEAD
 dpois(5, 20)
+=======
+>>>>>>> b2ab58d6f3d4fdf6d6ab7b26c6834d635bc42e57
 
 # Calculate prob of receving mostly 8 calls in one hour: P(X<=8)
 # ppois() gives the cumulative probabilities
@@ -89,10 +92,13 @@ plot(0:20, dpois(0:20,5),type='h', ylim=c(0,0.25),
 plot(0:20, dpois(0:20,10),type='h',ylim=c(0,0.25),
      xlab='X', main ='Poi(10)', ylab='P(X)', lwd=3, cex.lab=1.5, cex.axis=2, cex.main=2) 
 
+<<<<<<< HEAD
 # Parameter lambda = 20
 plot(0:20, dpois(0:20,20),type='h',ylim=c(0,0.25),
      xlab='X', main ='Poi(10)', ylab='P(X)', lwd=3, cex.lab=1.5, cex.axis=2, cex.main=2) 
 
+=======
+>>>>>>> b2ab58d6f3d4fdf6d6ab7b26c6834d635bc42e57
 # Exercise
 # A rare birth defect occurs with probability 0.0001. 
 # Assuming that 4,000 babies are born at a large hospital within a year, calculate the probability of having at least 10 babies with a birth defect.
